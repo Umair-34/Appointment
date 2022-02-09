@@ -1,3 +1,4 @@
+import django_heroku
 import os
 from pathlib import Path
 
@@ -133,3 +134,4 @@ EMAIL_USE_SSL = True
 EMAIL_USE_TLS = False
 
 LOGIN_URL = 'accounts:login'
+django_heroku.settings(locals())
