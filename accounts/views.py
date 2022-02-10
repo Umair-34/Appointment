@@ -31,7 +31,7 @@ def signup(request):
         phonenumber = request.POST.get('phonenumber')
         if form.is_valid():
             inactive_user = send_verification_email(request, form)  # Send verification email to in-active user
-            request.session['email'] = inactive_user.email  # save email in session, to add the same email for person
+          #  request.session['email'] = inactive_user.email  # save email in session, to add the same email for person
             Profile.objects.create(User=inactive_user, PhoneNumber=phonenumber)
             return redirect('accounts:email-activation')
         else:
