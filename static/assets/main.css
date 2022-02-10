@@ -960,7 +960,6 @@ a.btn-scroll span::before {
 /*  12.benefits            */
 /*-------------------------*/
 .benefits-container {
-	background-image: url("bgr-benefits.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
