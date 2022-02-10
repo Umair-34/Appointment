@@ -1068,7 +1068,7 @@ a.btn-scroll span::before {
 	margin-left: -1px;
 }
 .road-map-tl-event:before {
-	background: url("bgr-timeline.png") repeat-y center 0;
+	background: url("bgr-timeline2.png") repeat-y center 0;
 	height: 83%;
 	left: 50%;
 	top: 60px;
@@ -1259,14 +1259,12 @@ a.btn-scroll span::before {
 /*-------------------------*/
 .team { background: #4845b4; }
 .team3 {
-	background-image: url("bgr-our-team.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .team-mem {
-	background: url("bgr-team-col.png") no-repeat center center;
 	padding: 7px 15px;
 }
 .team-mem-info {
@@ -1561,7 +1559,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 /*  18.partner-logo        */
 /*-------------------------*/
 .partner {
-	background-image: url("bgr-brands-logo.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
@@ -1574,7 +1571,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 	margin: 0 auto;
 }
 .contact-content {
-	background-image: url("bgr-contact-area.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	max-width: 1305px;
@@ -1759,7 +1755,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 .newsletter-field input::-moz-placeholder { color: #777 !important; opacity: 1 !important; }
 .newsletter-field input::-ms-input-placeholder { color: #777 !important; opacity: 1 !important; }
 .newsletter-field input[type='submit'] {
-	background: url("bgr-submit.png") no-repeat 0 center;
 	width: 60px;
 	position: absolute;
 	right: 0; top: 0;
@@ -1774,7 +1769,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 	background-position: 15px center;
 }
 .newsletter-container {
-	background: #7f7de0 url("bgr-newsletter-container.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
@@ -1973,7 +1967,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 	z-index: 4;
 }
 .huge-container:before {
-	background: url("bgr-huge-left.png") no-repeat 0 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 567px;
@@ -1984,7 +1977,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 	z-index: -1;
 }
 .huge-container:after {
-	background: url("bgr-huge-right.png") no-repeat 0 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 	width: 450px;
@@ -2187,7 +2179,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 	border-radius: 50%;
 }
 .chart-un {
-	background: #fff url("chart-icon.png") no-repeat center center;
 	width: 120px;
 	height: 120px;
 	position: absolute;
@@ -2507,7 +2498,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 /*  31.rating          */
 /*---------------------*/
 .rating-container {
-	background-image: url("bgr-rating-container.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
@@ -2632,7 +2622,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 /*  33.hz-timeline      */
 /*----------------------*/
 .roadmap-container2 {
-	background-image: url("bgr-hz-timeline.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
@@ -2752,7 +2741,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
     color: #e94a8a;
 }
 .timeline--horizontal .timeline-divider {
-	background: url("bgr-timeline-li.png") repeat-x 0 center;
 	margin: 0 0;
 }
 .timeline-divider:before {
@@ -3303,7 +3291,6 @@ button.timeline-nav-button:focus { outline: none; }
 	font-weight: 400;
 }
 .sibgle-blog-content blockquote {
-	background: url("bgr-blockquote.png") no-repeat 9px 0;
 	padding: 5px 0 40px 71px;
 	margin-top: 20px;
 	font-size: 20px;
@@ -3659,7 +3646,6 @@ button.timeline-nav-button:focus { outline: none; }
 }
 .footer-curve { position: relative; }
 .footer-curve:before {
-	background: url("bgr-footer.png") no-repeat center 0 / cover;
 	width: 100%;
 	height: 79px;
 	content: "";
