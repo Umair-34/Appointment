@@ -1068,7 +1068,7 @@ a.btn-scroll span::before {
 	margin-left: -1px;
 }
 .road-map-tl-event:before {
-	background: url("bgr-timeline2.png") repeat-y center 0;
+	background: url("bgr-timeline.png") repeat-y center 0;
 	height: 83%;
 	left: 50%;
 	top: 60px;
@@ -1172,7 +1172,7 @@ a.btn-scroll span::before {
     content: '';
     width: 120px;
     height: 3px;
-    background: url("bgr-timeline2.png") repeat-x 0 0;
+    background: url("bgr-timeline.png") repeat-x 0 0;
     position: absolute;
     top: 34px;
     left: -120px;
@@ -1185,7 +1185,7 @@ a.btn-scroll span::before {
     content: '';
     width: 120px;
     height: 3px;
-    background: url("bgr-timeline2.png") repeat-x 0 0;
+    background: url("bgr-timeline.png") repeat-x 0 0;
     position: absolute;
     top: 33px;
     right: -120px;
