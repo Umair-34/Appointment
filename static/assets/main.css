@@ -2782,7 +2782,6 @@ h2.resp-accordion:first-child { border-top: 1px solid #e5e5e5 !important; }
 }
 button.timeline-nav-button:focus { outline: none; }
 .timeline-nav-button--prev:before {
-	background: url("arrow-left.svg") no-repeat 0 0;
     width: 12px;
     height: 18px;
     content: '\f111';
@@ -2794,7 +2793,6 @@ button.timeline-nav-button:focus { outline: none; }
     border-radius: 50%;
 }
 .timeline-nav-button--next:before {
-	background: url("arrow-right.svg") no-repeat right 0;
     width: 12px;
     height: 18px;
     content: '';
