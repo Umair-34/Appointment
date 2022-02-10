@@ -31,16 +31,6 @@ class Slot(models.Model):
         verbose_name_plural = 'Slots'
 
 
-# class Language(models.Model):
-#     Name = models.CharField(max_length=128, null=True, blank=True)
-#
-#     def __str__(self):
-#         return f'{self.Name}'
-#
-#     class Meta:
-#         verbose_name = 'Language'
-#         verbose_name_plural = 'Languages'
-
 
 class Meeting(models.Model):
     Slot = models.ForeignKey(Slot, on_delete=models.CASCADE)
