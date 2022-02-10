@@ -31,6 +31,9 @@ INSTALLED_APPS = [
     # third party apps
     'phonenumber_field',
     'verify_email.apps.VerifyEmailConfig',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
@@ -57,6 +60,8 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                # `allauth` needs this from django
+                'django.template.context_processors.request',
             ],
         },
     },
@@ -66,17 +71,18 @@ WSGI_APPLICATION = 'appointment.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
+SITE_ID = 1
 
 DATABASES = {
     'default': {
-        # 'ENGINE': 'django.db.backends.sqlite3',
-        # 'NAME': BASE_DIR / 'db.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # postgress db credentials for heroku db
-        'NAME': 'dhb353q5c7p4t',
-        'USER': 'bezphlgzsosdze',
-        'PASSWORD': 'a5b03ec6ccbe9bf8d4bbce3fee4a7f455cdcacd29b0765ca2c82274a3bb22ac8',
-        'HOST': 'ec2-34-233-157-189.compute-1.amazonaws.com',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',  # postgress db credentials for heroku db
+        # 'NAME': 'dhb353q5c7p4t',
+        # 'USER': 'bezphlgzsosdze',
+        # 'PASSWORD': 'a5b03ec6ccbe9bf8d4bbce3fee4a7f455cdcacd29b0765ca2c82274a3bb22ac8',
+        # 'HOST': 'ec2-34-233-157-189.compute-1.amazonaws.com',
+        # 'PORT': '5432',
     }
 }
 
@@ -129,13 +135,21 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+
+ACCOUNT_LOGOUT_ON_GET = True
+ACCOUNT_EMAIL_VERIFICATION = "none"
+
+LOGIN_REDIRECT_URL = 'core:book'
+ACCOUNT_LOGOUT_REDIRECT_URL = 'core:home'
+
 # Email Setup
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'property.contract.manage@gmail.com'
-EMAIL_HOST_PASSWORD = 'frczzxdonutxgknf'
+EMAIL_HOST_USER = 'applypeerdev@gmail.com'
+EMAIL_HOST_PASSWORD = 'xiqkpuypzfgdwevb'
 
 LOGIN_URL = 'accounts:login'
 django_heroku.settings(locals())

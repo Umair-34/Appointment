@@ -31,13 +31,13 @@ def termsnconditions(request):
     return render(request, 'core/termsnconditions.html')
 
 
-@login_required(login_url='accounts:login')
+@login_required(login_url='account_login')
 def appointment(request):
     obj = Meeting.objects.filter(Client=request.user)
     return render(request, 'core/index.html', {'obj': obj})
 
 
-@login_required(login_url='accounts:login')
+@login_required(login_url='account_login')
 def book(request):
     if request.method == 'POST':
         form = MeetingForm(request.POST)
