@@ -1,9 +1,4 @@
-/*!
- * Bootstrap v4.5.0 (https://getbootstrap.com/)
- * Copyright 2011-2020 The Bootstrap Authors
- * Copyright 2011-2020 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
+
 :root {
     --blue: #007bff;
     --indigo: #6610f2;
@@ -2361,7 +2356,6 @@ textarea.form-control {
 .form-control.is-valid, .was-validated .form-control:valid {
     border-color: #28a745;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("dadd3a0b4787e52caa4c16b84921701b622cba0c.svg");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2380,7 +2374,6 @@ textarea.form-control {
 .custom-select.is-valid, .was-validated .custom-select:valid {
     border-color: #28a745;
     padding-right: calc(.75em + 2.3125rem);
-    background: url("b45efd3df1c19e4bbbdbe8f426c69e267de0764d.svg") no-repeat right .75rem center/8px 10px, url("dadd3a0b4787e52caa4c16b84921701b622cba0c.svg") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-valid:focus, .was-validated .custom-select:valid:focus {
@@ -2456,7 +2449,6 @@ textarea.form-control {
 .form-control.is-invalid, .was-validated .form-control:invalid {
     border-color: #dc3545;
     padding-right: calc(1.5em + .75rem);
-    background-image: url("01d8d6cdbadc964b33ef4bd651893b950e045daa.svg");
     background-repeat: no-repeat;
     background-position: right calc(.375em + .1875rem) center;
     background-size: calc(.75em + .375rem) calc(.75em + .375rem)
@@ -2475,7 +2467,6 @@ textarea.form-control {
 .custom-select.is-invalid, .was-validated .custom-select:invalid {
     border-color: #dc3545;
     padding-right: calc(.75em + 2.3125rem);
-    background: url("b45efd3df1c19e4bbbdbe8f426c69e267de0764d.svg") no-repeat right .75rem center/8px 10px, url("01d8d6cdbadc964b33ef4bd651893b950e045daa.svg") #fff no-repeat center right 1.75rem/calc(.75em + .375rem) calc(.75em + .375rem)
 }
 
 .custom-select.is-invalid:focus, .was-validated .custom-select:invalid:focus {
@@ -3833,7 +3824,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url("e0bcce44172055ef231ba50570af4f6bd9dc4f3d.svg")
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
@@ -3842,7 +3832,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
-    background-image: url("cf798094d252840d5284589e6967a34b33e856c6.svg")
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
@@ -3858,7 +3847,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-label::after {
-    background-image: url("74f1bceee80c9afa0ec075e592594dc8c624b03a.svg")
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
@@ -3914,7 +3902,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
     line-height: 1.5;
     color: #495057;
     vertical-align: middle;
-    background: #fff url("b45efd3df1c19e4bbbdbe8f426c69e267de0764d.svg") no-repeat right .75rem center/8px 10px;
     border: 1px solid #ced4da;
     border-radius: .25rem;
     -webkit-appearance: none;
@@ -4653,7 +4640,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .navbar-light .navbar-toggler-icon {
-    background-image: url("32dc44f53263cbfc9d06a5340beb9c99e81dc73b.svg")
 }
 
 .navbar-light .navbar-text {
@@ -4698,7 +4684,6 @@ input[type=button].btn-block, input[type=reset].btn-block, input[type=submit].bt
 }
 
 .navbar-dark .navbar-toggler-icon {
-    background-image: url("6166cc6e82d6ddf793e6b502fde8e0e781204449.svg")
 }
 
 .navbar-dark .navbar-text {
@@ -6552,11 +6537,9 @@ a.close.disabled {
 }
 
 .carousel-control-prev-icon {
-    background-image: url("89fbffd6b3e78853f09f887368f51f3a8f86b12f.svg")
 }
 
 .carousel-control-next-icon {
-    background-image: url("97b448e7ce319e72bdc6804545c102c359906430.svg")
 }
 
 .carousel-indicators {
