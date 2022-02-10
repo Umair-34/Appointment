@@ -49,7 +49,11 @@
                 </div>
                 <div class="col-xl-10 col-lg-10 col-md-7 col-8 d-none d-md-block whitebg">
                     <div class="header-btn f-right d-none d-sm-none d-md-block">
-                        <a href="{% url 'accounts:login' %}" class="btn"><i class="fal fa-lock-alt"></i>Sign In</a>
+                        {% if user.is_authenticated %}
+                        <a href="{% url 'accounts:login' %}" class="btn "><i class=""></i>Dashboard</a>
+                        {% else %}
+                        <a href="{% url 'accounts:login' %}" class="btn "><i class="fal fa-lock-alt"></i>Sign In</a>
+                        {% endif %}
                     </div>
                     <div class="main-menu colormenu d-block">
                         <nav id="mobile-menu">

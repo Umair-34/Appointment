@@ -69,8 +69,14 @@ WSGI_APPLICATION = 'appointment.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',  # postgress db credentials for heroku db
+        'NAME': 'dhb353q5c7p4t',
+        'USER': 'bezphlgzsosdze',
+        'PASSWORD': 'a5b03ec6ccbe9bf8d4bbce3fee4a7f455cdcacd29b0765ca2c82274a3bb22ac8',
+        'HOST': 'ec2-34-233-157-189.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
