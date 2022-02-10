@@ -309,15 +309,12 @@ p {
 	background: #4845b4;
 }
 .banner-container {
-	background-image: url("bgr-header.png");
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
 	padding: 299px 0 264px 0;
 }
-.banner2 { background-image: url("bgr-banner2.png"); }
-.banner3 { background-image: url("bgr-banner3.png"); }
 .banner-content { width: 49%; }
 .banner-cont-info h1 {
 	font-size: 47px;
@@ -701,21 +698,16 @@ a.btn-scroll span::before {
 /*  8.unc-inventment-container   */
 /*-------------------------------*/
 .unc-inventment-container {
-	background-image: url("bgr-unc-inventment.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
 	background-size: cover;
 	overflow: hidden;
 }
-.unc-inventment-container2 { background-image: url("bgr-unc-inventment3.png"); }
-.unc-inventment-container3 { background-image: url("bgr-unc-inventment2.png"); }
-.unc-inventment-container2 .unc-inventment-image { background-image: url("inv-img.png"); }
 .unc-inventment-container { position: relative; z-index: 10; }
 .unc-inventment-container:after {
 	width: 40%;
     min-height: 800px;
-    background: url("inv-img.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 center;
@@ -727,7 +719,6 @@ a.btn-scroll span::before {
     z-index: 1;
 }
 .unc-inventment-container3:after {
-	background-image: url("inv-img2.png");
 	min-height: 625px;
 }
 .unc-inventment-content {
@@ -880,7 +871,6 @@ a.btn-scroll span::before {
 /*  10.happenning          */
 /*-------------------------*/
 .unc-happenning-container {
-	background-image: url("bgr-happenning.png");
 	background-repeat: no-repeat;
 	background-position: center 0;
 	-webkit-background-size: cover;
