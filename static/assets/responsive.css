@@ -1,31 +1,4 @@
 
-/*
-=> 1.global paddin  and margin
-=> 2.header css
-=> 3.banner css
-=> 4.livesale
-=> 5.three-col
-=> 6.invented
-=> 7.unc-inventment
-=> 8.features
-=> 9.happenning
-=> 10.benefits
-=> 11.our-team
-=> 12.token
-=> 13.timeline
-=> 14.tab
-=> 15.contact form
-=> 16.chart
-=> 17.video currency
-=> 18.huge container
-=> 19.int-content
-=> 20.rating
-=> 21.blog
-=> 22.404 page
-=> 23.footer
-*/
-
-/* 1.global paddin  and margin */
 
 @media screen and (max-width: 1050px) {
 	.pb-150 { padding-bottom: 70px; }
@@ -686,7 +659,6 @@
 	    bottom: inherit;
 	}
 	.timeline:not(.timeline--horizontal)::before {
-	    background: url("bgr-timeline-li-y.png") repeat-y center 0;
 	    width: 3px;
 	}
 	.timeline--mobile::before {
